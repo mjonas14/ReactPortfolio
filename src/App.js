@@ -1,11 +1,20 @@
 import './App.css';
-import { Navbar } from './components';
+import { 
+  Navbar, 
+  AboutMe, 
+  Portfolio, 
+  Contact, 
+  Resume 
+} from './components';
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <h1>This is a test</h1>
+      <AboutMe />
+      <Portfolio />
+      <Contact />
+      <Resume />
     </div>
   );
 }
