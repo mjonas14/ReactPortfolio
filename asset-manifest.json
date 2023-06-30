@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.073c9b0a.css",
+    "main.js": "/ReactPortfolio/static/js/main.0a0cc02c.js",
+    "static/media/2021_MarcusJonas_Headshot.jpeg": "/ReactPortfolio/static/media/2021_MarcusJonas_Headshot.f0bef8780adea12503fd.jpeg",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.073c9b0a.css.map": "/ReactPortfolio/static/css/main.073c9b0a.css.map",
+    "main.0a0cc02c.js.map": "/ReactPortfolio/static/js/main.0a0cc02c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0a0cc02c.js"
+  ]
+}
