@@ -1,5 +1,17 @@
 import React, { useState } from "react";
-import { TextField, Grid } from "@material-ui/core";
+import { TextField, Grid, Button } from "@material-ui/core";
+import Email from "./validate/Email";
+
+var emailValidation = "";
+const validate = (values) => {
+  if (!values) {
+    emailValidation = "required";
+    return "Email is required";
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+    emailValidation = "invalid";
+    return "Invalid email address";
+  }
+};
 
 export const Contact = () => {
   const [nameInput, setNameInput] = useState("");
@@ -46,6 +58,8 @@ export const Contact = () => {
             placeholder="Email address"
             onChange={(event) => {
               setEmailInput(event.target.value);
+              console.log(event.target.value);
+              console.log(validate(event.target.value));
             }}
           />
         </Grid>
@@ -68,6 +82,10 @@ export const Contact = () => {
           />
         </Grid>
       </Grid>
+      <Email check={emailValidation} />
+      <Button variant="contained" style={{ float: "left", margin: "40px" }}>
+        Submit
+      </Button>
     </div>
   );
 };

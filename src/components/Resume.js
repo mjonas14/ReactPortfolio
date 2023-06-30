@@ -45,18 +45,51 @@ export const Resume = () => {
       >
         Resume
       </h1>
+      <h2
+        style={{
+          textAlign: "left",
+          marginTop: "40px",
+          marginLeft: "40px",
+          width: "75%",
+        }}
+      >
+        Programming Language
+      </h2>
       <Grid container>
-          <Grid item xs={12}>
-            <List>
-              {languages.map((language, index) => {
-                return (
-                  <ListItem key={index}>
-                    <ListItemText>{language}</ListItemText>
-                  </ListItem>
-                );
-              })}
-            </List>
-          </Grid>
+        <Grid item xs={12}>
+          <List>
+            {languages.map((language, index) => {
+              return (
+                <ListItem key={index} style={{marginLeft: '40px'}}>
+                    <ListItemText primary={language} />
+                </ListItem>
+              );
+            })}
+          </List>
+        </Grid>
+      </Grid>
+      <h2
+        style={{
+          textAlign: "left",
+          marginTop: "40px",
+          marginLeft: "40px",
+          width: "75%",
+        }}
+      >
+        Interests
+      </h2>
+      <Grid container>
+        <Grid item xs={12}>
+          <List>
+            {interests.map((interest, index) => {
+              return (
+                <ListItem key={index} style={{marginLeft: '40px'}}>
+                    <ListItemText primary={interest} />
+                </ListItem>
+              );
+            })}
+          </List>
+        </Grid>
       </Grid>
     </div>
   );
