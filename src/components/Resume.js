@@ -7,8 +7,15 @@ import {
   ListItem,
   ListItemText,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
-const languages = ["HTML", "CSS", "JavaScript", "Python", "Java"];
+const languages = [
+  "HTML", 
+  "CSS", 
+  "JavaScript", 
+  "Python", 
+  "Java"
+];
 
 const frameworks = [
   "React",
@@ -45,6 +52,13 @@ export const Resume = () => {
       >
         Resume
       </h1>
+      <h5 style={{
+        marginLeft: "40px",
+        textAlign: "left"
+        }}>
+        <a href='src/utils/MarcusJonasResume.pdf' download>Click to download Resume</a>
+      </h5>
+
       <h2
         style={{
           textAlign: "left",

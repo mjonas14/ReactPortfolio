@@ -1,5 +1,4 @@
 import React from "react";
-import Image from '../utils/images/2021_MarcusJonas_Headshot.jpeg';
 
 export const AboutMe = () => {
   return (
@@ -12,8 +11,6 @@ export const AboutMe = () => {
         }}>
             About Me
         </h1>
-
-        <img src={Image} alt="Picture of me" />
 
         <h3 style={{
             textAlign: 'left',
