@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.073c9b0a.css",
-    "main.js": "/ReactPortfolio/static/js/main.0a0cc02c.js",
-    "static/media/2021_MarcusJonas_Headshot.jpeg": "/ReactPortfolio/static/media/2021_MarcusJonas_Headshot.f0bef8780adea12503fd.jpeg",
+    "main.css": "/ReactPortfolio/static/css/main.616a7042.css",
+    "main.js": "/ReactPortfolio/static/js/main.edf0b0a6.js",
+    "static/media/digital-marketing-meeting.jpg": "/ReactPortfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/ForecastFlix.png": "/ReactPortfolio/static/media/ForecastFlix.aefead0638ce6fe66dab.png",
+    "static/media/GROW-Cover-Image.png": "/ReactPortfolio/static/media/GROW-Cover-Image.78c2ddb8cfaf02e39e24.png",
+    "static/media/portfolio-cover-picture.jpeg": "/ReactPortfolio/static/media/portfolio-cover-picture.7eab2d953e0cccbd4c15.jpeg",
+    "static/media/ReelReviews.png": "/ReactPortfolio/static/media/ReelReviews.dba32f3bd20e7c65ea8e.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.073c9b0a.css.map": "/ReactPortfolio/static/css/main.073c9b0a.css.map",
-    "main.0a0cc02c.js.map": "/ReactPortfolio/static/js/main.0a0cc02c.js.map"
+    "main.616a7042.css.map": "/ReactPortfolio/static/css/main.616a7042.css.map",
+    "main.edf0b0a6.js.map": "/ReactPortfolio/static/js/main.edf0b0a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0a0cc02c.js"
+    "static/css/main.616a7042.css",
+    "static/js/main.edf0b0a6.js"
   ]
 }
